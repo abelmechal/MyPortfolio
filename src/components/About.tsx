@@ -2,7 +2,6 @@
 import React from "react"
 import { aboutContent } from "@/data/About"
 import Image from "next/image"
-import portrait from "@/assets/images.png"
 
 // Framer motion
 import { motion, Variants } from "framer-motion"
@@ -10,9 +9,6 @@ import { motion, Variants } from "framer-motion"
 // Components
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-
-// Icons
-import { ArrowRight } from "lucide-react"
 
 const About = () => {
     const container = {
