@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "1.0.0",
-  "homepage": "https://bereketgirma.github.io/MyPortfolio",
+  "homepage": "https://abelmechal.github.io/MyPortfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
