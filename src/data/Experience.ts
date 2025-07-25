@@ -2,7 +2,7 @@ export const experiences = [
     {
         title: 'Student IT Consultant',
         company: 'Minnesota State University',
-        period: 'August 2024 - Present',
+        period: 'August 2024 - May 2025',
         description: `
             Configured and maintained campus workstations using Active Directory, Group Policy, and LAPS to ensure secure software deployments. 
             Diagnosed and resolved Tier 1 and Tier 2 issues related to Windows, macOS, and networking protocols. 
@@ -12,7 +12,7 @@ export const experiences = [
     {
         title: 'Software Engineer Intern',
         company: 'SEO',
-        period: 'May 2025 - August 2025',
+        period: 'May 2025 - Present',
         description: `
             Completed intensive technical and professional development training tailored for the software industry. 
             Received personalized coaching and participated in mock interviews to improve job readiness. 
