@@ -1,7 +1,10 @@
 "use client"
 import React from "react"
 import { aboutContent } from "@/data/About"
+
+// Image
 import Image from "next/image"
+import portrait from "@/assets/portrait.jpg"
 
 // Framer motion
 import { motion, Variants } from "framer-motion"
@@ -108,7 +111,7 @@ const About = () => {
                         >
                             <div className="absolute inset-0 bg-gradient-to-br from-[#3e5c76]/20 to-[#748cab]/20" />
                             <Image
-                                src="/portrait.jpg"
+                                src={portrait}
                                 alt="Abel Kassa - Computer Science Student"
                                 fill
                                 className="object-cover"
