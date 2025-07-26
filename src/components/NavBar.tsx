@@ -30,10 +30,11 @@ const NavBar = () => {
     }, [scrollY])
 
      const navLinks = [
-        { name: "About", href: "#about" },
-        { name: "Experience", href: "#experience" },
-        { name: "Projects", href: "#projects" },
-        { name: "Contact", href: "#contact" },
+        { name: "Home", href: "/#home" },
+        { name: "About", href: "/about" },
+        { name: "Experience", href: "/#experience" },
+        { name: "Projects", href: "/#projects" },
+        { name: "Contact", href: "/#contact" },
     ]
 
     return(

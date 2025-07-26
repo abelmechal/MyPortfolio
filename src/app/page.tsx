@@ -10,7 +10,7 @@ import { ChevronDown } from "lucide-react"
 
 // Components
 import NavBar from "@/components/NavBar"
-import About from "@/components/About"
+import About from "@/components/Home"
 import Experience from "@/components/Experience";
 import Project from "@/components/Project";
 import Contact from "@/components/Contact"

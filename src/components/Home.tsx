@@ -1,6 +1,6 @@
 "use client"
 import React from "react"
-import { aboutContent } from "@/data/About"
+import { homeContent } from "@/data/Home"
 
 // Image
 import Image from "next/image"
@@ -13,7 +13,7 @@ import { motion, Variants } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 
-const About = () => {
+const Home = () => {
     const container = {
         hidden: { opacity: 0 },
         show: {
@@ -44,15 +44,15 @@ const About = () => {
 
     const downloadResume = () => {
         const link = document.createElement("a");
-        link.href = "/Abel_Kassa_Resume.pdf"
-        link.download = "Abel_Kassa_Resume.pdf";
+        link.href = "/Abel_Kassa_Resume (4).pdf"
+        link.download = "Abel_Kassa_Resume (4).pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
     }
 
     return(
-        <section id="about" className="min-h-screen flex items-center">
+        <section id="home" className="min-h-screen flex items-center">
             <div className="w-full max-w-5xl mx-auto">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <motion.div variants={container} initial="hidden" animate="show" className="space-y-4">
@@ -65,12 +65,12 @@ const About = () => {
                             variants={item}
                             className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#f0ebd8] leading-tight"
                         >
-                            Hi, I&apos;m <span className="text-[#748cab]">{aboutContent.name}</span>
+                            Hi, I&apos;m <span className="text-[#748cab]">{homeContent.name}</span>
                             <br />A Computer Science Student at Minnesota State University, Mankato
                         </motion.h1>
 
                         <motion.p variants={item} className="text-lg md:text-xl text-[#f0ebd8]/80 max-w-2xl">
-                            {aboutContent.description}
+                            {homeContent.description}
                         </motion.p>
 
                         <motion.div variants={item} className="flex flex-wrap gap-4">
@@ -146,4 +146,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Home;
